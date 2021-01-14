@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+  }
+ 
+ 
+  .headerPrice{
+      display: flex;
+      width:95%;
+      padding-left:10%;
+      margin-top: 5%;
+      
+  }
+  .column1{
+      margin-left: 3%;
+  }
+  .column1 h2{
+      margin-top: 70%;
+      text-align:left;
+      font-size: 30;
+      font-weight: 700;
+      
+  }
+  .headDiv {
+      justify-content: center;
+    text-align: center;
+    width: 20%;
+    font-weight: bold;
+  }
+  .headDiv h3{
+      margin-top:3px;
+      font-weight: 700;
+  }
+  .price{
+      font-size: 35px;
+      font-weight: 550;
+  }
+  .dollar{
+      margin-right: 3px;
+      font-size:17px;
+      color:grey;
+  }
+  .offer{
+      color:grey;
+  }
+.positionBox{
+    width:90%;
+    padding:10px;
+    border-radius: 25px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+   border: 2.5px solid rgb(108, 69, 201);
+}
+.positionBox span{
+padding:5px;
+color:rgb(108, 69, 201);
+}
+
+
+
+
+
+  /*..............  ActiveTable ............... */
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 78%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:3%;
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align:left;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border:none;
+  }
+
+ .featureTitle{
+      width:37%;
+      font-weight:bold;
+  }
+
+.one{
+    width:25%;
+}
+.two{
+    width:25%;
+}
+
+  tr:nth-child(even) {
+    background-color:rgb(228, 228, 228);
+}
+  .green{
+      text-align: center;
+      background-color:rgb(150, 230, 190);
+      width:30px;
+      height:30px;
+      border-radius: 50%;
+  }
+  .red{
+    text-align: center;
+    background-color:rgb(248, 144, 144);
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+
+  }
+  .icongreen{
+      margin-top:2.5px;
+      color:rgb(58, 161, 108);
+  }
+  .iconred{
+      margin-top: 2.5px;
+      color:rgb(199, 80, 80);
+  }
